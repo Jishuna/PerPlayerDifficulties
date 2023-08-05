@@ -1,4 +1,4 @@
-package me.jishuna.perplayerdifficulty;
+package me.jishuna.perplayerdifficulty.inventory;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -6,6 +6,8 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
 
 import me.jishuna.jishlib.inventory.CustomInventory;
+import me.jishuna.perplayerdifficulty.PerPlayerDifficulty;
+import me.jishuna.perplayerdifficulty.difficulty.Difficulty;
 
 public class DifficultyInfoInventory extends CustomInventory {
     private final PerPlayerDifficulty plugin;

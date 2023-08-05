@@ -1,4 +1,4 @@
-package me.jishuna.perplayerdifficulty;
+package me.jishuna.perplayerdifficulty.inventory;
 
 import java.util.Arrays;
 import java.util.List;
@@ -14,6 +14,8 @@ import me.jishuna.jishlib.inventory.PagedCustomInventory;
 import me.jishuna.jishlib.items.ItemBuilder;
 import me.jishuna.jishlib.items.MobHead;
 import me.jishuna.jishlib.util.StringUtils;
+import me.jishuna.perplayerdifficulty.Utils;
+import me.jishuna.perplayerdifficulty.difficulty.Difficulty;
 
 public class EntitySettingsInventory extends PagedCustomInventory<EntityType> {
     private static final List<EntityType> TYPES = Arrays.stream(EntityType.values()).filter(Utils::isEnemyType).sorted((a, b) -> a.getKey().getKey().compareTo(b.getKey().getKey())).toList();

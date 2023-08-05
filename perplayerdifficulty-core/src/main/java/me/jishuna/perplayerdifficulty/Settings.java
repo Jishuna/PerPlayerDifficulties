@@ -6,6 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import me.jishuna.jishlib.config.annotation.ConfigEntry;
 import me.jishuna.jishlib.config.annotation.PostLoad;
+import me.jishuna.perplayerdifficulty.difficulty.Difficulty;
 
 public class Settings {
     @ConfigEntry("default-difficulty")

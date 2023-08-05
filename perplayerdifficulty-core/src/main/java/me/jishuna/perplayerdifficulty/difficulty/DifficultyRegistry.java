@@ -1,4 +1,4 @@
-package me.jishuna.perplayerdifficulty;
+package me.jishuna.perplayerdifficulty.difficulty;
 
 import java.io.File;
 import java.util.Collection;

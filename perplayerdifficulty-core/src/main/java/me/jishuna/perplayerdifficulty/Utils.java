@@ -7,6 +7,9 @@ import org.bukkit.entity.EntityType;
 import org.bukkit.entity.HumanEntity;
 
 import me.jishuna.jishlib.pdc.PersistentTypes;
+import me.jishuna.perplayerdifficulty.difficulty.Difficulty;
+import me.jishuna.perplayerdifficulty.difficulty.DifficultyRegistry;
+import me.jishuna.perplayerdifficulty.difficulty.EntityBehaviour;
 
 public class Utils {
     private static final Set<EntityType> NEUTRAL_ENTITIES = Set.of(EntityType.ENDERMAN, EntityType.ZOMBIFIED_PIGLIN, EntityType.WOLF, EntityType.DOLPHIN, EntityType.BEE, EntityType.GOAT, EntityType.POLAR_BEAR, EntityType.IRON_GOLEM, EntityType.LLAMA, EntityType.TRADER_LLAMA, EntityType.PANDA);

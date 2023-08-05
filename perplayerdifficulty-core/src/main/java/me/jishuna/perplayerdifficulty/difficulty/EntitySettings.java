@@ -1,4 +1,4 @@
-package me.jishuna.perplayerdifficulty;
+package me.jishuna.perplayerdifficulty.difficulty;
 
 import me.jishuna.jishlib.config.annotation.ConfigEntry;
 import me.jishuna.jishlib.config.annotation.ConfigMappable;

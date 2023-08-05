@@ -10,6 +10,9 @@ import me.jishuna.jishlib.config.ConfigurationManager;
 import me.jishuna.jishlib.inventory.CustomInventoryListener;
 import me.jishuna.jishlib.inventory.CustomInventoryManager;
 import me.jishuna.jishlib.util.FileUtils;
+import me.jishuna.perplayerdifficulty.command.DifficultyCommand;
+import me.jishuna.perplayerdifficulty.difficulty.DifficultyRegistry;
+import me.jishuna.perplayerdifficulty.listener.MobListener;
 
 public class PerPlayerDifficulty extends JavaPlugin {
     private ConfigurationManager configurationManager;

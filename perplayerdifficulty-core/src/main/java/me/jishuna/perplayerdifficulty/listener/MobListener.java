@@ -1,4 +1,4 @@
-package me.jishuna.perplayerdifficulty;
+package me.jishuna.perplayerdifficulty.listener;
 
 import java.util.Set;
 
@@ -12,6 +12,10 @@ import org.bukkit.event.entity.EntityTargetEvent.TargetReason;
 import org.bukkit.event.entity.EntityTargetLivingEntityEvent;
 
 import me.jishuna.jishlib.util.EventUtils;
+import me.jishuna.perplayerdifficulty.Utils;
+import me.jishuna.perplayerdifficulty.difficulty.Difficulty;
+import me.jishuna.perplayerdifficulty.difficulty.DifficultyRegistry;
+import me.jishuna.perplayerdifficulty.difficulty.EntityBehaviour;
 
 public class MobListener implements Listener {
     private static final Set<TargetReason> NEUTRAL_REASONS = Set.of(TargetReason.TARGET_ATTACKED_ENTITY, TargetReason.TARGET_ATTACKED_NEARBY_ENTITY, TargetReason.TARGET_ATTACKED_OWNER);

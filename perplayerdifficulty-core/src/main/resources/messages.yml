@@ -1,0 +1,10 @@
+entity-settings:
+  name: '<gold><bold>{0}'
+  description:
+    - '<gold>Damage: <red>{0}%'
+    - '<gold>Behaviour: {1}'
+
+behaviour:
+  hostile: '<red>Hostile'
+  neutral: '<yellow>Neutral'
+  passive: '<green>Passive'

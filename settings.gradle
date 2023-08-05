@@ -1,0 +1,6 @@
+rootProject.name = 'perplayerdifficulty'
+gradle.rootProject {
+    it.version = '2.0.0'
+}
+
+include 'perplayerdifficulty-core'
